@@ -29,4 +29,5 @@ Require all granted
 3. hosts
 127.0.0.1 interview.dev
 
+composer update
 4. ./yii migrate/up
