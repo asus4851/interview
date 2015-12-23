@@ -1,0 +1,32 @@
+1. Выполнено
+2. Выполнено
+3. Выполнено
+4. Выполнено ./yii migrate/up
+5. Нашел модуль для  yii2 http://www.yiiframework.com/extension/yii2-db-seeder/
+проверил - работает, но для большей кастомизации решил сделать свою миграцию
+6. Выполнено
+7. Выполнено, при использовании model generator & crud yii2 автоматом создает поиск с возможностью поиска и сортировки
+8. Pjax встроенная технология в yii2 (обернул gridview)
+9. Выполнено, в контроллере в behaviors добавил access и запретил доступ в эти action
+10. Выполнено
+11. Выполнено, доступ к actionTree оставил открытый для всех
+12. Выполнено, делал через модуль kartikFileInput после сохранял картинку на сервер,
+через модуль imagine обрабатывал картинку и уменшал до размера 200*125 для экономии места на сервере и удалял оригинал
+
+1. Создать базу данных abz_test
+
+2. Настройка xampp
+<VirtualHost *:80>
+ServerAdmin webmaster@dummy-host2.example.com
+DocumentRoot "C:\xampp\htdocs\interview.dev\web"
+ServerName interview.dev
+<Directory "C:\xampp\htdocs\interview.dev\web">
+AllowOverride All
+Require all granted
+</Directory>
+</VirtualHost>
+
+3. hosts
+127.0.0.1 interview.dev
+
+4. ./yii migrate/up
